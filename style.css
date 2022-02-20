@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+header {
+  min-height: 60vh;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url("https://images.pexels.com/photos/2842329/pexels-photo-2842329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"),
+    no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: white;
+}
+
+header .text {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+header .countdown {
+  max-width: 1200px;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+
+header .countdown div {
+  margin: 1rem auto 0 auto;
+}
+
+header .countdown div h1 {
+  font-size: 4rem;
+}
+
+header .countdown div span {
+  color: wheat;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
