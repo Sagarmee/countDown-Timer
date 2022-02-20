@@ -18,11 +18,16 @@ function countYear(){
     const sec = Math.floor(findSecond) % 60;
 
     Day.innerHTML = day
-    Hour.innerHTML = hour
-    Min.innerHTML = min
-    Sec.innerHTML = sec
+    Hour.innerHTML = zero(hour)
+    Min.innerHTML = zero(min)
+    Sec.innerHTML = zero(sec)
 }
 
 
+function zero(time){
+    return time < 10 ? `0${time}` : time
+}
+
 countYear()
 setInterval(countYear,1000)
+
